@@ -7,6 +7,9 @@ public class CreateCardResponse {
     private Long cardId;
     private String expirationDate;
 
+    public CreateCardResponse() {
+    }
+
     public CreateCardResponse(Long cardId, String expirationDate) {
         this.cardId = cardId;
         this.expirationDate = expirationDate;
